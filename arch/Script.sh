@@ -1,5 +1,5 @@
 wifi-menu
-fdisk /dev/sda
+cfdisk /dev/sda
 mkfs.ext4 /dev/sda1
 swapon /dev/sda2
 mount /dev/sda1 /mnt
