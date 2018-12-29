@@ -1,5 +1,5 @@
 useradd --create-home steven -g wheel
-passwd archie
+passwd steven
 passwd 
 echo Steven-Thinkpad-Yoga-14 > /etc/hostname
 pacman -S --noconfirm dialog wpa_supplicant
@@ -16,4 +16,3 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 yay -S --noconfirm steam proton
-p
