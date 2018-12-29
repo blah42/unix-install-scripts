@@ -12,9 +12,7 @@ pacman -S --noconfirm dialog wpa_supplicant
 pacman -S --noconfirm grub
 grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
-passwd blah13 blah13
 pacman -Syu --noconfirm 
 pacman -S --noconfirm i3-gaps lightdm xorg-server lightdm-gtk-greeter
 systemctl enable lightdm.service
-exit
-restart
+psswd
