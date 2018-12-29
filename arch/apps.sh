@@ -1,13 +1,7 @@
-wifi-menu
-cfdisk /dev/sda
-mkfs.ext4 /dev/sda2
-swapon /dev/sda1
-mount /dev/sda2 /mnt
-mkdir /mnt/home
-pacstrap /mnt base base-devel
-genfstab -U /mnt >> /mnt/etc/fstab
-arch-chroot /mnt
-echo Steven-ThinkpadYoga14 > /etc/hostname
+useradd --create-home steven -g wheel
+passwd archie
+passwd 
+echo Steven-Thinkpad-Yoga-14 > /etc/hostname
 pacman -S --noconfirm dialog wpa_supplicant
 pacman -S --noconfirm grub
 grub-install /dev/sda
@@ -16,3 +10,10 @@ pacman -Syu --noconfirm
 pacman -S --noconfirm i3-gaps lightdm xorg-server lightdm-gtk-greeter
 systemctl enable lightdm.service
 psswd
+mkdir /home/steven/github
+cd /home/steven/github
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+yay -S --noconfirm steam proton
+p
