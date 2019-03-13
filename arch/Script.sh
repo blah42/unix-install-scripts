@@ -15,4 +15,3 @@ grub-mkconfig -o /boot/grub/grub.cfg
 pacman -Syu --noconfirm 
 pacman -S --noconfirm i3-gaps lightdm xorg-server lightdm-gtk-greeter
 systemctl enable lightdm.service
-psswd

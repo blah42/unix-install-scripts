@@ -1,0 +1,29 @@
+[Added Associations]
+inode/directory=exo-file-manager.desktop
+x-scheme-handler/trash=exo-file-manager.desktop
+application/x-sharedlib=notepadqq.desktop;libreoffice-calc.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-UK59VZ.desktop;
+message/rfc822=userapp-Thunderbird-UK59VZ.desktop;
+x-scheme-handler/news=userapp-Thunderbird-W7MBWZ.desktop;
+x-scheme-handler/snews=userapp-Thunderbird-W7MBWZ.desktop;
+x-scheme-handler/nntp=userapp-Thunderbird-W7MBWZ.desktop;
+x-scheme-handler/feed=userapp-Thunderbird-EXWAWZ.desktop;
+application/rss+xml=userapp-Thunderbird-EXWAWZ.desktop;
+application/x-extension-rss=userapp-Thunderbird-EXWAWZ.desktop;
+application/x-pak=org.gnome.FileRoller.desktop;
+application/octet-stream=firefox.desktop;
+text/plain=notepadqq.desktop;
+application/pdf=firefox.desktop;
+image/png=gpicview.desktop;
+application/x-desktop=lxshortcut.desktop;
+
+[Default Applications]
+x-scheme-handler/mailto=userapp-Thunderbird-UK59VZ.desktop
+message/rfc822=userapp-Thunderbird-UK59VZ.desktop
+x-scheme-handler/news=userapp-Thunderbird-W7MBWZ.desktop
+x-scheme-handler/snews=userapp-Thunderbird-W7MBWZ.desktop
+x-scheme-handler/nntp=userapp-Thunderbird-W7MBWZ.desktop
+x-scheme-handler/feed=userapp-Thunderbird-EXWAWZ.desktop
+application/rss+xml=userapp-Thunderbird-EXWAWZ.desktop
+application/x-extension-rss=userapp-Thunderbird-EXWAWZ.desktop
+application/x-sharedlib=notepadqq.desktop
