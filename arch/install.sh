@@ -2,7 +2,7 @@ wifi-menu
 cfdisk /dev/sda
 mkfs.ext4 /dev/sda2
 swapon /dev/sda1
-mount /dev/sda1 /mnt
+mount /dev/sda2 /mnt
 mkdir /mnt/home
 pacstrap /mnt base base-devel
 genfstab -U /mnt >> /mnt/etc/fstab
