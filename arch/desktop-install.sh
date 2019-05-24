@@ -1,6 +1,8 @@
 cfdisk /dev/sda
 cfdisk /dev/sdb
 mkfs.ext4 /dev/sdb2
+mkfs.ext4 /dev/sda1
+mkfs.ext4 /dev/sda2
 swapon /dev/sdb1
 mkdir /mnt/home
 mkdir /mnt/usr
